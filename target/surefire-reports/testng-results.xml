@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T22:56:27 IST" name="Childsupport suite" finished-at="2023-10-17T22:56:34 IST" duration-ms="7143">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T22:56:27 IST" name="Contact us" finished-at="2023-10-17T22:56:34 IST" duration-ms="7143">
+      <class name="testing_Oct10th.TC_003">
+        <test-method is-config="true" signature="launch_the_application(java.lang.String)[pri:0, instance:testing_Oct10th.TC_003@38cee291]" started-at="2023-10-17T22:56:27 IST" name="launch_the_application" finished-at="2023-10-17T22:56:31 IST" duration-ms="4606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://childsupport.ca.gov/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_the_application -->
+        <test-method signature="test_Contact_us_2()[pri:0, instance:testing_Oct10th.TC_003@38cee291]" started-at="2023-10-17T22:56:31 IST" name="test_Contact_us_2" finished-at="2023-10-17T22:56:33 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Contact_us_2 -->
+        <test-method signature="test_homepage_1(java.lang.String,java.lang.String)[pri:0, instance:testing_Oct10th.TC_003@38cee291]" started-at="2023-10-17T22:56:33 IST" name="test_homepage_1" finished-at="2023-10-17T22:56:33 IST" duration-ms="749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CA Child Support Services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://childsupport.ca.gov/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_homepage_1 -->
+        <test-method signature="testing_3()[pri:0, instance:testing_Oct10th.TC_003@38cee291]" started-at="2023-10-17T22:56:33 IST" name="testing_3" finished-at="2023-10-17T22:56:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing_3 -->
+        <test-method is-config="true" signature="close_application()[pri:0, instance:testing_Oct10th.TC_003@38cee291]" started-at="2023-10-17T22:56:33 IST" name="close_application" finished-at="2023-10-17T22:56:34 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_application -->
+      </class> <!-- testing_Oct10th.TC_003 -->
+    </test> <!-- Contact us -->
+  </suite> <!-- Childsupport suite -->
+  <suite started-at="2023-10-17T22:56:34 IST" name="iframelearningSuite" finished-at="2023-10-17T22:56:57 IST" duration-ms="22901">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T22:56:34 IST" name="iframe validation" finished-at="2023-10-17T22:56:57 IST" duration-ms="22901">
+      <class name="testing_Oct10th.iframe_learning">
+        <test-method is-config="true" signature="launch_the_application(java.lang.String)[pri:0, instance:testing_Oct10th.iframe_learning@2af004b]" started-at="2023-10-17T22:56:34 IST" name="launch_the_application" finished-at="2023-10-17T22:56:38 IST" duration-ms="4675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_the_application -->
+        <test-method signature="frames_page()[pri:0, instance:testing_Oct10th.iframe_learning@2af004b]" started-at="2023-10-17T22:56:38 IST" name="frames_page" finished-at="2023-10-17T22:56:56 IST" duration-ms="17161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frames_page -->
+        <test-method signature="test_homepage_1(java.lang.String,java.lang.String)[pri:0, instance:testing_Oct10th.iframe_learning@2af004b]" started-at="2023-10-17T22:56:56 IST" name="test_homepage_1" finished-at="2023-10-17T22:56:56 IST" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Internet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_homepage_1 -->
+        <test-method is-config="true" signature="close_the_application()[pri:0, instance:testing_Oct10th.iframe_learning@2af004b]" started-at="2023-10-17T22:56:56 IST" name="close_the_application" finished-at="2023-10-17T22:56:57 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_the_application -->
+      </class> <!-- testing_Oct10th.iframe_learning -->
+    </test> <!-- iframe validation -->
+  </suite> <!-- iframelearningSuite -->
+</testng-results>
